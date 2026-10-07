@@ -1,0 +1,7 @@
+[
+  {"question": "¿Qué base de datos guarda los pedidos?", "reference_answer": "PostgreSQL es la fuente de verdad para pedidos.", "relevant_doc_ids": ["arquitectura"]},
+  {"question": "¿A qué hora se hace el respaldo completo?", "reference_answer": "Cada noche a las 02:00 UTC.", "relevant_doc_ids": ["operacion"]},
+  {"question": "¿Cuándo vencen los tokens de acceso?", "reference_answer": "A los treinta minutos.", "relevant_doc_ids": ["seguridad"]},
+  {"question": "¿Qué se hace ante una exposición de datos?", "reference_answer": "Se escala a seguridad, se revocan credenciales, se preserva evidencia y se revisa el alcance.", "relevant_doc_ids": ["incidentes"]},
+  {"question": "¿Qué ocurre con las escrituras si PostgreSQL falla?", "reference_answer": "La API suspende las escrituras hasta recuperar la conexión.", "relevant_doc_ids": ["operacion"]}
+]
